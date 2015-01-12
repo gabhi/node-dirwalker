@@ -1,5 +1,5 @@
-dirwalker
-=========
+node-dirwalker
+==============
 
 [![Build Status](https://travis-ci.org/tonypujals/dirwalker.svg?branch=master)](https://travis-ci.org/tonypujals/dirwalker)
 
@@ -27,14 +27,14 @@ Regardless of the loaded rules:
 Install
 -------
 
-    npm install dirwalker
+    npm install node-dirwalker
 
 
 Usage
 -----
 
 ```
-var DirWalker = require('dirwalker'),
+var DirWalker = require('node-dirwalker'),
     options = { ... };
 
 var walker = DirWalker(options);
@@ -58,7 +58,7 @@ Example
 The following demonstrates configuring a walker like `npm publish`.
 
 ```
-var DirWalker = require('dirwalker');
+var DirWalker = require('node-dirwalker');
 
 var options = {
   // ignoreFiles is an array of ignore filenames (ex: .ignore) to load.
