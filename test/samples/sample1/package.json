@@ -1,0 +1,17 @@
+{
+  "name": "sample1",
+  "version": "1.0.0",
+  "description": "Sample package for npt test",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chalk": "^0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  },
+  "bundledDependencies": [
+    "chalk"
+  ]
+}

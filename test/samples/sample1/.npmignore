@@ -1,0 +1,7 @@
+# should be ignored
+test/
+
+# these ignore rules will be overruled
+README.md
+package.json
+
