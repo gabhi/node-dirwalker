@@ -14,9 +14,9 @@ the .gitignore file.
 
 Regardless of the loaded rules:
 
- * certain files are never ignored (package.json, README.*)
+ * certain files are never ignored (`package.json`, `README.*`)
  * certain files/paths do not need to be mentioned and will be ignored by default
-   (for example, node_modules/)
+   (for example, `node_modules/`)
  * some files that are ignored might be overridden by custom logic (although
    `node_modules` is automatically ignored, `npm publish` will still include
    installed dependencies that are specified in package.json `bundledDependencies`)

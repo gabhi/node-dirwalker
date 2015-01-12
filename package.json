@@ -1,6 +1,6 @@
 {
   "name": "dirwalker",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Walk directories filtering out file/path entries designated by ignore files",
   "main": "./lib/index.js",
   "scripts": {
