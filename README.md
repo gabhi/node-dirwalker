@@ -1,6 +1,8 @@
 dirwalker
 =========
 
+[![Build Status](https://travis-ci.org/tonypujals/dirwalker.svg?branch=master)](https://travis-ci.org/tonypujals/dirwalker)
+
 Walk directories filtering out any entries that match file/path glob patterns
 designated by ignore files. Specify any file/path entries that must *always*
 be included.
@@ -20,6 +22,13 @@ Regardless of the loaded rules:
  * some files that are ignored might be overridden by custom logic (although
    `node_modules` is automatically ignored, `npm publish` will still include
    installed dependencies that are specified in package.json `bundledDependencies`)
+
+
+Install
+-------
+
+    npm install dirwalker
+
 
 Usage
 -----
