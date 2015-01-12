@@ -25,6 +25,9 @@ the .gitignore file. Regardless of the loaded rules, with `npm publish`:
 Install
 -------
 
+[![NPM](https://nodei.co/npm/node-dirwalker.png)](https://nodei.co/npm/node-dirwalker/)
+
+
     npm install node-dirwalker
 
 
