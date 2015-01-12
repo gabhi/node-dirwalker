@@ -1,6 +1,6 @@
 {
   "name": "node-dirwalker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Walk directories filtering out file/path entries designated by ignore files",
   "main": "./lib/index.js",
   "scripts": {

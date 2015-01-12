@@ -51,6 +51,17 @@ var walker = DirWalker(options);
 walker.walk(dir, {recurse: true});
 ```
 
+entry event
+-----------
+The entry event provides an entry object with the following properties:
+
+ * basename - file name
+ * dirname - the file directory
+ * pathname - full path to the file
+ * relname - the path to the file relative to the directory where the walker started
+ * type - 'directory' | 'file'
+ * stats - [fs.stats object](http://nodejs.org/api/fs.html#fs_class_fs_stats)
+
 Example
 -------
 The following demonstrates configuring a walker like `npm publish`.
