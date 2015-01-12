@@ -1,7 +1,7 @@
-node-dirwalker
+node-dirwalker [![Build Status](https://travis-ci.org/tonypujals/node-dirwalker.svg?branch=master)](https://travis-ci.org/tonypujals/node-dirwalker)
 ==============
 
-[![Build Status](https://travis-ci.org/tonypujals/node-dirwalker.svg?branch=master)](https://travis-ci.org/tonypujals/node-dirwalker)
+[![NPM](https://nodei.co/npm/node-dirwalker.png)](https://nodei.co/npm/node-dirwalker/)
 
 Walk directories filtering out any entries that match file/path glob patterns
 designated by ignore files. Specify any file/path entries that must *always*
@@ -24,9 +24,6 @@ the .gitignore file. Regardless of the loaded rules, with `npm publish`:
 
 Install
 -------
-
-[![NPM](https://nodei.co/npm/node-dirwalker.png)](https://nodei.co/npm/node-dirwalker/)
-
 
     npm install node-dirwalker
 
