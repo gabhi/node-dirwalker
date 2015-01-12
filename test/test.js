@@ -78,11 +78,11 @@ function compareWalk(dir, options, done) {
         .on('entry', function (entry) {
           // entry.relname is the relative pathname starting from source dir;
           // this makes it easy to compare actual with expected entries
-          //console.log('%s', entry.relname);
+          console.log('%s', entry.relname);
           walker.results.push(entry.relname);
         })
         .on('error', function (err) {
-          console.log(err);
+          console.error(err);
           walker.errors.push(err);
         })
         .on('close', function () {
