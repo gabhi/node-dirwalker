@@ -1,7 +1,7 @@
 node-dirwalker
 ==============
 
-[![Build Status](https://travis-ci.org/tonypujals/dirwalker.svg?branch=master)](https://travis-ci.org/tonypujals/dirwalker)
+[![Build Status](https://travis-ci.org/tonypujals/node-dirwalker.svg?branch=master)](https://travis-ci.org/tonypujals/node-dirwalker)
 
 Walk directories filtering out any entries that match file/path glob patterns
 designated by ignore files. Specify any file/path entries that must *always*
