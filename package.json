@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tonypujals/dirwalker.git"
+    "url": "https://github.com/tonypujals/node-dirwalker.git"
   },
   "keywords": [
     "directory",
@@ -17,12 +17,12 @@
     "file",
     "path"
   ],
-  "author": "Tony Pujals <tony@subfuzion.com> (http://twitter.com/subfuzion)",
+  "author": "Tony Pujals (http://twitter.com/subfuzion)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tonypujals/dirwalker/issues"
+    "url": "https://github.com/tonypujals/node-dirwalker/issues"
   },
-  "homepage": "https://github.com/tonypujals/dirwalker",
+  "homepage": "https://github.com/tonypujals/node-dirwalker",
   "dependencies": {
     "async": "^0.9.0",
     "lodash": "^2.4.1",
