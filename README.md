@@ -11,8 +11,8 @@ be included.
 as `npm` and `git` do.
 
 For example, `npm publish` follows various rules. If there is an `.npmignore` file,
-it will load the ignore rules from it; if it can't find .npmignore, it will load
-the .gitignore file. Regardless of the loaded rules, with `npm publish`:
+it will load the ignore rules from it; if it can't find `.npmignore`, it will load
+the `.gitignore` file. Finally, regardless of any loaded rules, `npm publish` ensures:
 
  * certain files are never ignored (`package.json`, `README.*`)
  * certain files/paths do not need to be mentioned and will be ignored by default
